@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="login.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+	<script type="text/javascript" src="login.js"></script>  
+	<title>User Registration</title>
+</head>
+
+<body>
+
+	<img class="mozilla" src="mozilla.png" alt="Mozilla">
+	
+	<div class="Login">
+		<h1>User Registration</h1>
+		
+			<table id= "Login-table">
+				<tr>
+					<th>
+						<div class="form-group">
+							<label>Name</label>
+							<input type="text" class="form-control" id="user_name" placeholder="Name" required />
+						</div>
+					</th>
+				</tr>
+				
+				<tr>
+					<th>
+						<div class="form-group">
+							<label>Email ID</label>
+							<input type="email" class="form-control" id="user_email" placeholder="Email" required />
+						</div>
+					</th>
+				</tr>
+
+				<tr>
+					<th>
+						<div class="form-group">
+							<label>Address</label>
+							<textarea id="user_address" required></textarea>
+						</div>
+					</th>
+				</tr>
+
+				<tr>
+					<th>
+						<div class = "text-center">
+							<input type="submit" class="btn btn-light" onclick = "getDetails()" value = "Submit"/>
+						</div>
+					</th>
+				</tr>
+			</table>
+
+		<div id = "details"  >
+			Name <input type="text" class="form-control"id ="name">
+			Email <input type="email" class="form-control"id = "email"> 
+			Address <input type="text" class="form-control"id = "address"> 
+		</div>
+	</div>
+
+</body>
+</html>

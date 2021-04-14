@@ -1,0 +1,33 @@
+body {
+  background: #ffffff ;
+  min-height: 100vh;
+  display: flex;
+}
+
+.Login {
+  width: 450px;
+  margin: auto;
+  background: #007bff;
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+}
+
+input[type=text], input[type=email],textarea{
+  width: 300px;
+  border: 1px solid #ccc;
+}
+
+#Login-table{
+  width: 300px;	
+}
+
+.mozilla{
+  width:100px;
+  height:100px;
+}
+
+#details{
+	display:none;
+}
+
+
